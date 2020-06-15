@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login container */
+/* Smartphone */
+.login-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  font-family: "Red Hat Text";
+}
+
+/* Tablets */
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .login-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Red Hat Text";
+  }
+}
+/* Desktops */
+@media only screen and (min-width: 800px) {
+  .login-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Red Hat Text";
+  }
+}
+img {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  background: #DFDFDF;
+  border: 0px;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  font-family: "Red Hat Text";
+}
+
+button {
+  width: 100%;
+  background: #13A378;
+  border: 0px;
+  border-radius: 1rem;
+  padding: 0.7rem;
+  margin: 0.7rem;
+  color: #FFFFFF;
+  font-family: "Red Hat Text";
+}
+
+button:hover {
+  background: #1B785C;
+}
+
+.required {
+  border: 1px solid #e95e5e;
+}
+
+a, a:visited {
+  color: #13A330;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1B785C;
+}
+
+/*# sourceMappingURL=login.css.map */
